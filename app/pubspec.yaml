@@ -1,0 +1,16 @@
+name: wildfire_guard_app
+description: 산불가드 — InfluxDB에 저장된 온도·습도·기압을 실시간 그래프로 보여주는 앱
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  fl_chart: ^0.66.0
+
+flutter:
+  uses-material-design: true
